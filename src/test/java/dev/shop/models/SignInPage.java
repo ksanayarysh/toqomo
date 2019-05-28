@@ -1,3 +1,10 @@
+/*
+* Page object для страницы sign in
+* Реализованы методы заполнения логина, пароля и нажатия на кнопку с ожиданием
+* В конструктор передается webdriver
+*
+* */
+
 package dev.shop.models;
 
 import org.openqa.selenium.By;
@@ -26,5 +33,4 @@ public class SignInPage {
                   until(ExpectedConditions.elementToBeClickable(By.cssSelector ("[type=submit]")));
           we.click();
     }
-// )  presenceOfElementLocated(
 }

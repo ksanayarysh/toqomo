@@ -1,3 +1,10 @@
+/*
+Тесты
+Тесты используют data provider, один пароль является верным, второй нет
+Проверяем, что с правильным паролем можно зайти, а с неверным нельзя
+Предусловия: создан аккаунт с данными: логин +79630830696 пароль bQp0Lem1Zv
+ */
+
 package dev.shop;
 
 import dev.shop.models.SignInPage;
@@ -16,7 +23,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(value = Parameterized.class)
